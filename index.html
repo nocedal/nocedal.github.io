@@ -1,81 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="es">
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Bare - Start Bootstrap Template</title>
+    <title>Benvenid@ Vecino@</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <style>
-      body {
-        padding-top: 54px;
-      }
-      @media (min-width: 992px) {
-        body {
-          padding-top: 56px;
-        }
-      }
+    <link href="starter-template.css" rel="stylesheet">
+    <link href="cover.css" rel="stylesheet">
+    <link href="override.css" rel="stylesheet">
 
-    </style>
 
   </head>
 
   <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="vendor/open-iconic-master/svg/home.svg" width="30" height="30" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#codigo-de-conducta">Reglas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.facebook.com/groups/284468081957424/">Grupo Facebook</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Contacto</a>
+          </li>
+        </ul>
+        <!--
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      -->
       </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-5">A Bootstrap 4 Starter Template</h1>
-          <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
-          <ul class="list-unstyled">
-            <li>Bootstrap 4.0.0-beta</li>
-            <li>jQuery 3.2.1</li>
-          </ul>
-        </div>
+    <!--
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
+
+    </main>
+    -->
+    <!-- /.container -->
+
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <main role="main" class="inner cover">
+            <h1 class="cover-heading">Bienvenid@ vecino@</h1>
+            <p class="lead">Esta p&aacute;gina contiene el código de conducta, algunas preguntas frecuentes y otro tipo de información relevante para los miembros del grupo Sector Residencial Nocedal 1-2-3 y Artes y Letras de San Bernardo</p>
+          </main>
+
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">C&oacute;digo de Conducta</h4>
+                  <p class="card-text">Al unirte al grupo estás aceptando el reglamento de conducta. </p>
+                  <a href="#codigo-de-conducta" class="btn btn-primary">Leer</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Preguntas Frecuentes</h4>
+                  <p class="card-text">Una colecci&oacute;n de respuestas a preguntas que habitualmente tienen los miembros de la comunidad.</p>
+                  <a href="#" class="btn btn-primary">Leer</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Base de Conocimiento</h4>
+                  <p class="card-text">Trámites, informaci&oacute; cívica, informaci&oacute;n de la Junta de vecinos. Avisos de utilidad pública.</p>
+                  <a href="#" class="btn btn-primary">Leer</a>
+                </div>
+              </div>
+            </div>
+          </div><!-- Fila 1 -->
+
+          <div class="row row-lefty" id="codigo-de-conducta">
+            <h2>Código de Conducta</h2>
+            <h3>Resumen</h3>
+            <ul>
+              <li>Se Agradable y respetusos con los otros miembros.</li>
+              <li>Publica en Castellano</li>
+              <li>Comparte publicaciones relacionadas con la villa o de interés para los miembros de la villa.</li>
+              <li>La venta de productos y oferta de servicios así como las oferta de trabajo, solcitud de servicios o cotizaciones deben exhibir un valor referencial o presupuesto. </li>
+              <li>No compartas información personal.</li>
+            </ul>
+
+            <h4>Preambulo</h4>
+            <p>Este documento define el c&oacute;digo de conducta del grupo. Aceptas este reglamento cuando te unes al grupo o participas de cualquiera de sus discusiones. El código está para ser respetado. La violación de este código reñutará en la expulsión temporal o permanente del grupo. El código debe ser aplicado para todos por igual, esto incluye administradores, moderadores y miembros.</p>
+
+            <h4>Contenido Local y Lenguaje</h4>
+            <p>Cualquier cosa publicada en en el muro de grupo debes estar en Castellano. Sabemos que algunos miembreos puedes estar viviendo en otro lugar del planeta, haber llegado recientemente del extranjero o por cualquier otro motivo pueden hablar más de un idioma. Sin embargo se ha establecido a la lengua castellana como estándar para la comunicación dentro del grupo. Publicaciones cuyo contenido no este en castellano serán removidas. Asi mismo, las publicaciones que tengan contenido adjunto que no esté en castellano.
+            <br/>
+            <br/>
+            Solicitudes, descargos, sugerencias y cualquier tipo de mensaje dirigido hacia el equipo de colaboradores, tambi&én debe estar en castellano.
+            </p>
+
+            <h4>Calidad del Contenido</h4>
+            <p></p>
+
+          </div>
+
+        </div><!-- Cont 1 -->
+
+        <div class="container">
+
+        </div>
+
+      </div>
+
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
-
 </html>
